@@ -70,7 +70,7 @@ function App() {
           <input
             type="text"
             className="search-bar"
-            placeholder="Search..."
+            placeholder="Search...   Melbourne, AU"
             onChange={(e) => setQuery(e.target.value)}
             value={query}
             onKeyPress={search}
